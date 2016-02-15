@@ -1,0 +1,16 @@
+{
+  "name": "museno-admin",
+  "description": "Administration de l'application Museno",
+  "version": "0.0.0",
+  "homepage": "https://github.com/aj-it/museno-admin",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+    "bootstrap": "^3.3.6"
+  }
+}
