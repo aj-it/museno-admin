@@ -1,6 +1,9 @@
-(function () {
+(function() {
   'use strict';
 
-  angular.module('app.genre', []);
+  angular.module('app.genre', [
+    'ngResource',
+    'ui.bootstrap'    
+  ]);
 
 })();
