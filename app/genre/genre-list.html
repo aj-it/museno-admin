@@ -1,0 +1,14 @@
+<p>{{ vm.title }}</p>
+<button class="btn btn-primary" type="button" ng-click="vm.addGenre()">Ajouter un genre</button>
+<table class="table">
+  <th>#ID</th>
+  <th>Libellé</th>
+  <th>Date d'enregistrement</th>
+  <th>Date de modification</th>
+  <tr ng-repeat="genre in vm.genres">
+    <td>{{ genre.id }}</td>
+    <td>{{ genre.name }}</td>
+    <td>{{ genre.created_at }}</td>
+    <td>{{ genre.updated_at }}</td>
+  </tr>
+</table>
